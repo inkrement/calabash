@@ -1,39 +1,43 @@
-########################################
-#                                      #
-#       Important Note                 #
-#                                      #
-#   When running calabash-ios tests at #
-#   www.xamarin.com/test-cloud         #
-#   this file will be overwritten by   #
-#   a file which automates             #
-#   app launch on devices.             #
-#                                      #
-#   Don't rely on this file being      #
-#   present when running at            #
-#   Xamarin Test Cloud                 #
-#                                      #
-########################################
-
 require 'calabash-cucumber/launcher'
+require 'singleton'
 
+module Calabash
+  class LaunchControl
+    include Singleton
+    attr_reader :launcher
 
-Before do |scenario|
-  @calabash_launcher = Calabash::Cucumber::Launcher.new
-  scenario_tags = scenario.source_tag_names
-  if scenario_tags.include?('@reinstall')
-    @calabash_launcher.reset_app_jail
-  end
-  unless @calabash_launcher.calabash_no_launch?
-    @calabash_launcher.relaunch()
-    @calabash_launcher.calabash_notify(self)
+    def launcher
+      @launcher ||= Calabash::Cucumber::Launcher.new
+    end
   end
 end
 
-After do |scenario|
-  unless @calabash_launcher.calabash_no_stop?
-    calabash_exit
-    if @calabash_launcher.active?
-      @calabash_launcher.stop
-    end
+Before('@reset_app_before_hook') do
+  ENV['RESET_BETWEEN_SCENARIOS'] = '1'
+end
+
+Before('@reset_simulator_before_hook') do
+  launcher = Calabash::LaunchControl.instance.launcher
+  if launcher.simulator_target?
+    launcher.reset_simulator
+  elsif xamarin_test_cloud?
+    ENV['RESET_BETWEEN_SCENARIOS'] = '1'
+  else
+    # no-op for devices
   end
+end
+
+Before do |_|
+  launcher = Calabash::LaunchControl.instance.launcher
+  launch_options =
+        {
+              :launch_retries => ENV['TRAVIS'] ? 7 : 2
+        }
+
+  launcher.relaunch(launch_options)
+  launcher.calabash_notify(self)
+end
+
+After do |_|
+  ENV['RESET_BETWEEN_SCENARIOS'] = '0'
 end
