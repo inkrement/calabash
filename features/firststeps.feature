@@ -1,9 +1,9 @@
 Feature: First Steps
 
-#  Scenario: Skip welcome message
-#    Given a welcome message
-#    When I skip the welcome message
-#    Then I am taking to the registration screen
+  Scenario: Skip welcome message
+    Given a welcome message
+    When I skip the welcome message
+    Then I am taking to the registration screen
 
   Scenario: registration
     Given a welcome message

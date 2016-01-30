@@ -1,0 +1,126 @@
+Script started on Sat Jan 30 21:41:59 2016
+command: calabash-android run /Users/chris/Documents/dipl/TelegramAndroid/TMessagesProj/build/outputs/apk/TMessagesProj-release.apk -v -p android features/firststeps.feature
+2016-01-30 21:41:59 - JDK found on PATH.
+2016-01-30 21:41:59 - JDK found at: /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home
+2016-01-30 21:41:59 - Android SDK found at: /Users/chris/Library/Android/sdk
+2016-01-30 21:42:00 - Trying to find launchable activity
+2016-01-30 21:42:00 - Found tools directory at '/Users/chris/Library/Android/sdk/build-tools/19.1.0'
+2016-01-30 21:42:00 - Found launchable activity 'org.telegram.ui.LaunchActivity'
+2016-01-30 21:42:00 - /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/bin/ruby -S cucumber -v -p android features/firststeps.feature MAIN_ACTIVITY=org.telegram.ui.LaunchActivity APP_PATH="/Users/chris/Documents/dipl/TelegramAndroid/TMessagesProj/build/outputs/apk/TMessagesProj-release.apk" TEST_APP_PATH="test_servers/2da9e4282154d6d639d25f81be0d88a1_0.5.15.apk"
+Code:
+  * features/support/env.rb
+  * features/android/support/app_lifecycle_hooks.rb
+  * features/android/pages/confirmation_page_android.rb
+  * features/android/pages/main_page_android.rb
+  * features/android/pages/registration_page_android.rb
+  * features/android/pages/welcome_page_android.rb
+  * features/step_definitions/calabash_steps.rb
+  * features/step_definitions/firststeps_steps.rb
+
+Features:
+  * features/firststeps.feature
+
+Using the android profile...
+Feature: First Steps
+
+2016-01-30 21:42:00 - connected_devices: ["emulator-5554"]
+2016-01-30 21:42:00 - "/Users/chris/Library/Android/sdk/platform-tools/adb" -s emulator-5554 forward tcp:34777 tcp:7102
+2016-01-30 21:42:00 - 
+2016-01-30 21:42:00 - Found tools directory at '/Users/chris/Library/Android/sdk/build-tools/19.1.0'
+2016-01-30 21:42:00 - Uninstalling: org.telegram.messenger.test
+2016-01-30 21:42:01 - WARNING: linker: libdvm.so has text relocations. This is wasting memory and is a security risk. Please fix.
+Success
+2016-01-30 21:42:01 - Found tools directory at '/Users/chris/Library/Android/sdk/build-tools/19.1.0'
+2016-01-30 21:42:01 - Uninstalling: org.telegram.messenger
+2016-01-30 21:42:02 - WARNING: linker: libdvm.so has text relocations. This is wasting memory and is a security risk. Please fix.
+Success
+2016-01-30 21:42:02 - Installing: test_servers/2da9e4282154d6d639d25f81be0d88a1_0.5.15.apk
+1225 KB/s (567042 bytes in 0.451s)
+2016-01-30 21:42:04 - WARNING: linker: libdvm.so has text relocations. This is wasting memory and is a security risk. Please fix.
+	pkg: /data/local/tmp/2da9e4282154d6d639d25f81be0d88a1_0.5.15.apk
+Success
+2016-01-30 21:42:04 - Found tools directory at '/Users/chris/Library/Android/sdk/build-tools/19.1.0'
+2016-01-30 21:42:04 - Installing: /Users/chris/Documents/dipl/TelegramAndroid/TMessagesProj/build/outputs/apk/TMessagesProj-release.apk
+1084 KB/s (19742001 bytes in 17.777s)
+2016-01-30 21:42:25 - WARNING: linker: libdvm.so has text relocations. This is wasting memory and is a security risk. Please fix.
+	pkg: /data/local/tmp/TMessagesProj-release.apk
+Success
+2016-01-30 21:42:25 - Found tools directory at '/Users/chris/Library/Android/sdk/build-tools/19.1.0'
+2016-01-30 21:42:26 - Found tools directory at '/Users/chris/Library/Android/sdk/build-tools/19.1.0'
+2016-01-30 21:42:26 - Trying to find launchable activity
+2016-01-30 21:42:26 - Found tools directory at '/Users/chris/Library/Android/sdk/build-tools/19.1.0'
+2016-01-30 21:42:26 - Found launchable activity 'org.telegram.ui.LaunchActivity'
+2016-01-30 21:42:26 - Found tools directory at '/Users/chris/Library/Android/sdk/build-tools/19.1.0'
+2016-01-30 21:42:26 - Starting test server using:
+2016-01-30 21:42:26 - "/Users/chris/Library/Android/sdk/platform-tools/adb" -s emulator-5554 shell am instrument -e target_package org.telegram.messenger -e main_activity org.telegram.ui.LaunchActivity -e test_server_port 7102 -e class sh.calaba.instrumentationbackend.InstrumentationBackend org.telegram.messenger.test/sh.calaba.instrumentationbackend.CalabashInstrumentationTestRunner
+WARNING: linker: libdvm.so has text relocations. This is wasting memory and is a security risk. Please fix.
+2016-01-30 21:42:27 - It looks like your app is no longer running. 
+It could be because of a crash or because your test script shut it down.
+2016-01-30 21:42:28 - It looks like your app is no longer running. 
+It could be because of a crash or because your test script shut it down.
+2016-01-30 21:42:29 - It looks like your app is no longer running. 
+It could be because of a crash or because your test script shut it down.
+2016-01-30 21:42:30 - Checking if instrumentation backend is ready
+2016-01-30 21:42:30 - Is app running? true
+2016-01-30 21:42:30 - Instrumentation backend not yet ready
+2016-01-30 21:42:33 - Checking if instrumentation backend is ready
+2016-01-30 21:42:33 - Is app running? true
+2016-01-30 21:42:33 - Instrumentation backend is ready!
+2016-01-30 21:42:33 - Checking client-server version match...
+2016-01-30 21:42:33 - Action: version - Params: 
+2016-01-30 21:42:33 - Result:'{"bonusInformation":[],"message":"0.5.15","success":true}'
+2016-01-30 21:42:33 - Client and server versions match (client: 0.5.15, server: 0.5.15). Proceeding...
+  Scenario: Skip welcome message[90m                # features/firststeps.feature:3[0m
+    [32mGiven a welcome message[90m                     # features/step_definitions/firststeps_steps.rb:6[0m[0m
+    [32mWhen I skip the welcome message[90m             # features/step_definitions/firststeps_steps.rb:10[0m[0m
+    [32mThen I am taking to the registration screen[90m # features/step_definitions/firststeps_steps.rb:14[0m[0m
+2016-01-30 21:42:35 - It looks like your app is no longer running. 
+It could be because of a crash or because your test script shut it down.
+
+2016-01-30 21:42:35 - Found tools directory at '/Users/chris/Library/Android/sdk/build-tools/19.1.0'
+2016-01-30 21:42:35 - Trying to find launchable activity
+2016-01-30 21:42:35 - Found tools directory at '/Users/chris/Library/Android/sdk/build-tools/19.1.0'
+2016-01-30 21:42:35 - Found launchable activity 'org.telegram.ui.LaunchActivity'
+2016-01-30 21:42:35 - Found tools directory at '/Users/chris/Library/Android/sdk/build-tools/19.1.0'
+2016-01-30 21:42:35 - Starting test server using:
+2016-01-30 21:42:35 - "/Users/chris/Library/Android/sdk/platform-tools/adb" -s emulator-5554 shell am instrument -e target_package org.telegram.messenger -e main_activity org.telegram.ui.LaunchActivity -e test_server_port 7102 -e class sh.calaba.instrumentationbackend.InstrumentationBackend org.telegram.messenger.test/sh.calaba.instrumentationbackend.CalabashInstrumentationTestRunner
+WARNING: linker: libdvm.so has text relocations. This is wasting memory and is a security risk. Please fix.
+2016-01-30 21:42:36 - Checking if instrumentation backend is ready
+2016-01-30 21:42:36 - Is app running? true
+2016-01-30 21:42:36 - Instrumentation backend not yet ready
+2016-01-30 21:42:39 - Checking if instrumentation backend is ready
+2016-01-30 21:42:39 - Is app running? true
+2016-01-30 21:42:40 - It looks like your app is no longer running. 
+It could be because of a crash or because your test script shut it down.
+2016-01-30 21:42:43 - Checking if instrumentation backend is ready
+2016-01-30 21:42:43 - Is app running? true
+2016-01-30 21:42:43 - Instrumentation backend is ready!
+2016-01-30 21:42:43 - Checking client-server version match...
+2016-01-30 21:42:43 - Action: version - Params: 
+2016-01-30 21:42:43 - Result:'{"bonusInformation":[],"message":"0.5.15","success":true}'
+2016-01-30 21:42:43 - Client and server versions match (client: 0.5.15, server: 0.5.15). Proceeding...
+  Scenario: registration[90m                        # features/firststeps.feature:8[0m
+    [32mGiven a welcome message[90m                     # features/step_definitions/firststeps_steps.rb:6[0m[0m
+    [32mWhen I skip the welcome message[90m             # features/step_definitions/firststeps_steps.rb:10[0m[0m
+    [32mThen I am taking to the registration screen[90m # features/step_definitions/firststeps_steps.rb:14[0m[0m
+2016-01-30 21:42:49 - Action: touch_coordinate - Params: 675, 402
+2016-01-30 21:42:49 - Result:'{"bonusInformation":[],"message":"","success":true}'
+    [32mThen I select country with code "[32m[1m+43[0m[0m[32m"[90m       # features/step_definitions/firststeps_steps.rb:25[0m[0m
+2016-01-30 21:42:50 - Action: keyboard_enter_text - Params: 69911602033
+2016-01-30 21:42:51 - Result:'{"bonusInformation":[],"message":"","success":true}'
+    [32mThen I select phone number "[32m[1m69911602033[0m[0m[32m"[90m    # features/step_definitions/firststeps_steps.rb:29[0m[0m
+submit registration form    [32mWhen I submit registration form[90m             # features/step_definitions/firststeps_steps.rb:33[0m[0m
+    [32mThen I am taking to the confirmation screen[90m # features/step_definitions/firststeps_steps.rb:42[0m[0m
+confirmation code: 788022016-01-30 21:43:04 - Action: keyboard_enter_text - Params: 78802
+2016-01-30 21:43:04 - Result:'{"bonusInformation":[],"message":"","success":true}'
+    [32mThen I enter confirmation code[90m              # features/step_definitions/firststeps_steps.rb:48[0m[0m
+    [32mThen I submit confirmation form[90m             # features/step_definitions/firststeps_steps.rb:56[0m[0m
+    [32mThen I am taking to the main screen[90m         # features/step_definitions/firststeps_steps.rb:60[0m[0m
+2016-01-30 21:43:05 - It looks like your app is no longer running. 
+It could be because of a crash or because your test script shut it down.
+
+2 scenarios ([32m2 passed[0m)
+13 steps ([32m13 passed[0m)
+1m5.061s
+
+Script done on Sat Jan 30 21:43:06 2016

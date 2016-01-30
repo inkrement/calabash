@@ -3,7 +3,7 @@ require 'calabash-android/abase'
 class RegistrationPage < Calabash::ABase
 
   def trait
-    "* text:'Your phone'"
+    "android.widget.TextView text:'Your phone'"
   end
 
   def await(opts={})
@@ -16,10 +16,14 @@ class RegistrationPage < Calabash::ABase
     # click on country selection
     touch(country_dropdown)
 
+    sleep 1
+
     # scroll until right country code is found
     q = query(country_label(country_code))
     while q.empty?
       scroll_down
+
+      sleep 1
       q = query(country_label(country_code))
     end
 
@@ -27,11 +31,32 @@ class RegistrationPage < Calabash::ABase
   end
 
   def submit_registration_form()
-    tap_when_element_exists("ActionBarMenuItem")
+    print "submit registration form"
+    tap_when_element_exists("org.telegram.ui.ActionBar.ActionBarMenuItem index:0")
+
+    wait_for_registration_done
+  end
+
+  def wait_for_registration_done
+    result = :invalid
+    confirmation_page = page(ConfirmationPage)
+
+    wait_for(timeout: 60) do
+      if element_exists(confirmation_page.trait)
+        result = :valid
+      end
+    end
+
+    case result
+      when :invalid
+        self
+      else
+        confirmation_page.await(timeout:10)
+    end
   end
 
   def select_phonenumber(phone_number)
-    enter_text(phone_input, phonenumber)
+    enter_text(phone_input, phone_number)
   end
 
   def phone_input

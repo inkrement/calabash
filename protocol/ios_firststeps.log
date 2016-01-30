@@ -1,0 +1,56 @@
+Script started on Sat Jan 30 21:45:42 2016
+command: cucumber -v -p ios features/firststeps.feature
+Code:
+  * features/support/env.rb
+  * features/ios/support/01_launch.rb
+  * features/ios/pages/confirmation_page_ios.rb
+  * features/ios/pages/main_page_ios.rb
+  * features/ios/pages/registration_page_ios.rb
+  * features/ios/pages/welcome_page_ios.rb
+  * features/step_definitions/calabash_steps.rb
+  * features/step_definitions/firststeps_steps.rb
+
+Features:
+  * features/firststeps.feature
+
+Using the ios profile...
+Feature: First Steps
+
+  Scenario: Skip welcome message[90m                # features/firststeps.feature:3[0m
+    [32mGiven a welcome message[90m                     # features/step_definitions/firststeps_steps.rb:6[0m[0m
+    [32mWhen I skip the welcome message[90m             # features/step_definitions/firststeps_steps.rb:10[0m[0m
+    [32mThen I am taking to the registration screen[90m # features/step_definitions/firststeps_steps.rb:14[0m[0m
+
+  Scenario: registration[90m                        # features/firststeps.feature:8[0m
+    [32mGiven a welcome message[90m                     # features/step_definitions/firststeps_steps.rb:6[0m[0m
+    [32mWhen I skip the welcome message[90m             # features/step_definitions/firststeps_steps.rb:10[0m[0m
+    [32mThen I am taking to the registration screen[90m # features/step_definitions/firststeps_steps.rb:14[0m[0m
+    [32mThen I select country with code "[32m[1m+43[0m[0m[32m"[90m       # features/step_definitions/firststeps_steps.rb:25[0m[0m
+    [32mThen I select phone number "[32m[1m69911602033[0m[0m[32m"[90m    # features/step_definitions/firststeps_steps.rb:29[0m[0m
+    [32mWhen I submit registration form[90m             # features/step_definitions/firststeps_steps.rb:33[0m[0m
+    [32mThen I am taking to the confirmation screen[90m # features/step_definitions/firststeps_steps.rb:42[0m[0m
+confirmation code: 34740[34m
+WARN: deprecated '0.9.145' - 'set_text' is deprecated and its behavior is now unpredictable
+* to enter text using the native keyboard use 'keyboard_enter_text'
+* to delete text use 'keyboard_enter_text('Delete')
+* to clear a text field or text view:
+  - RECOMMENDED: use queries and touches to replicate what the user would do
+    * for text fields, implement a clear text button and touch it
+    * for text views, use touches to reveal text editing popup
+    see https://github.com/calabash/calabash-ios/issues/151
+  - use 'clear_text'
+https://github.com/calabash/calabash-ios/wiki/03.5-Calabash-iOS-Ruby-API
+/Library/Ruby/Gems/2.0.0/gems/calabash-cucumber-0.17.1/lib/calabash-cucumber/core.rb:1071:in `set_text'
+/Users/chris/Documents/dipl/cucumber/features/ios/pages/confirmation_page_ios.rb:18:in `select_confirmation_code'
+/Users/chris/Documents/dipl/cucumber/features/step_definitions/firststeps_steps.rb:53:in `block in <top (required)>'
+/Library/Ruby/Gems/2.0.0/gems/cucumber-2.3.0/lib/cucumber/core_ext/instance_exec.rb:25:in `instance_exec'
+/Library/Ruby/Gems/2.0.0/gems/cucumber-2.3.0/lib/cucumber/core_ext/instance_exec.rb:25:in `block in cucumber_instance_exec'[0m
+    [32mThen I enter confirmation code[90m              # features/step_definitions/firststeps_steps.rb:48[0m[0m
+    [32mThen I submit confirmation form[90m             # features/step_definitions/firststeps_steps.rb:56[0m[0m
+    [32mThen I am taking to the main screen[90m         # features/step_definitions/firststeps_steps.rb:60[0m[0m
+
+2 scenarios ([32m2 passed[0m)
+13 steps ([32m13 passed[0m)
+1m32.312s
+
+Script done on Sat Jan 30 21:47:15 2016
