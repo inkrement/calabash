@@ -2,10 +2,12 @@
 
 Run for android:
 
- * start emulator
+ * start emulator (e.g. open `android avg` and start device)
  * run:
 
- > calabash-android run ~/Documents/dipl/TelegramAndroid/TMessagesProj/build/outputs/apk/TMessagesProj-release.apk -p android features/firststeps.feature
+```
+calabash-android run ../TelegramAndroid/TMessagesProj/build/outputs/apk/TMessagesProj-release.apk -p android features/firststeps.feature
+```
 
 Run for ios:
 

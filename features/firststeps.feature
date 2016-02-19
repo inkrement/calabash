@@ -1,10 +1,12 @@
 Feature: First Steps
 
+  @reinstall
   Scenario: Skip welcome message
     Given a welcome message
     When I skip the welcome message
     Then I am taking to the registration screen
 
+  @reinstall
   Scenario: registration
     Given a welcome message
     When I skip the welcome message
