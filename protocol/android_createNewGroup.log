@@ -1,0 +1,20 @@
+Script started on Mon Feb 22 23:07:10 2016
+command: calabash-android run ../TelegramAndroid/TMessagesProj/build/outputs/apk/TMessagesProj-release.apk -p android features/createGroupChat.feature
+Using the android profile...
+Feature: Create Group Chat
+
+WARNING: linker: libdvm.so has text relocations. This is wasting memory and is a security risk. Please fix.
+WARNING: linker: libdvm.so has text relocations. This is wasting memory and is a security risk. Please fix.
+  Scenario: create group chat[90m                        # features/createGroupChat.feature:3[0m
+    [32mGiven a main page[90m                                # features/step_definitions/send_and_receive_steps.rb:6[0m[0m
+    [32mThen I click compose new message[90m                 # features/step_definitions/send_and_receive_steps.rb:11[0m[0m
+    [32mThen I click to create new group chat[90m            # features/step_definitions/create_group_chat_steps.rb:5[0m[0m
+    [32mThen I search and select "[32m[1mFrancesca[0m[0m[32m"[90m             # features/step_definitions/create_group_chat_steps.rb:13[0m[0m
+    [32mThen I enter group name "[32m[1msome group[0m[0m[32m" and proceed[90m # features/step_definitions/create_group_chat_steps.rb:21[0m[0m
+    [32mThen I should see a GroupChatPage[90m                # features/step_definitions/create_group_chat_steps.rb:26[0m[0m
+
+1 scenario ([32m1 passed[0m)
+6 steps ([32m6 passed[0m)
+0m17.252s
+
+Script done on Mon Feb 22 23:07:29 2016
