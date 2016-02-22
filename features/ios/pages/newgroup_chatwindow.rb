@@ -1,10 +1,9 @@
 require 'calabash-cucumber/ibase'
 
-
-class MainPage < Calabash::IBase
+class GroupChatPage < Calabash::IBase
 
   def trait
-    "UILabel text:'Chats'"
+    "UILabel {text BEGINSWITH '2 members'}"
   end
 
   def await(opts={})

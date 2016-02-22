@@ -1,0 +1,917 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DTDKLastLSRegisterHashes</key>
+	<dict>
+		<key>/System/Library/CoreServices/CoreTypes.bundle</key>
+		<data>
+		TaxHTb3h4BxdqLid+LRI94dLGuY=
+		</data>
+		<key>/System/Library/CoreServices/CoreTypes.bundle/Contents/Library/MobileDevices.bundle</key>
+		<data>
+		dwT4AS7mSPTdi+XLQS3v0ucaTNE=
+		</data>
+	</dict>
+	<key>DVTDeveloperAccountManagerAppleIDs</key>
+	<array>
+		<dict>
+			<key>username</key>
+			<string>chris.hotz.behofsits@gmail.com</string>
+		</dict>
+	</array>
+	<key>DVTDisclosureViewDisclosedStates</key>
+	<dict/>
+	<key>DVTDownloadableAutomaticUpdate</key>
+	<false/>
+	<key>DVTFontAndColorCurrentTheme</key>
+	<string>Default.dvtcolortheme</string>
+	<key>DVTLibraryUIState.Xcode.IDETemplateLibrary.Library.Files</key>
+	<dict>
+		<key>DVTLibraryAssetTileViewUIState</key>
+		<dict>
+			<key>assetViewStyle</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>DVTSourceControlAccountDefaultsKey</key>
+	<array>
+		<dict>
+			<key>DVTSourceControlAccountAuthTypeKey</key>
+			<integer>1</integer>
+			<key>DVTSourceControlAccountNameKey</key>
+			<string>telegram-1</string>
+			<key>DVTSourceControlAccountURLKey</key>
+			<string>https://github.com/inkrement/telegram-1.git</string>
+			<key>DVTSourceControlRepositoryIdentifierKey</key>
+			<string>4A5BEE4DFE7777AFD5504E71EF990A207EDDC37A</string>
+			<key>DVTSourceControlSystemIdentifierKey</key>
+			<string>com.apple.dt.Xcode.sourcecontrol.Git</string>
+		</dict>
+		<dict>
+			<key>DVTSourceControlAccountAuthTypeKey</key>
+			<integer>1</integer>
+			<key>DVTSourceControlAccountNameKey</key>
+			<string>Signals</string>
+			<key>DVTSourceControlAccountURLKey</key>
+			<string>https://github.com/peter-iakovlev/Signals.git</string>
+			<key>DVTSourceControlRepositoryIdentifierKey</key>
+			<string>E860E73EA92362394DE531098D73ED96B22811B3</string>
+			<key>DVTSourceControlSystemIdentifierKey</key>
+			<string>com.apple.dt.Xcode.sourcecontrol.Git</string>
+		</dict>
+		<dict>
+			<key>DVTSourceControlAccountAuthTypeKey</key>
+			<integer>1</integer>
+			<key>DVTSourceControlAccountNameKey</key>
+			<string>sqlcipher</string>
+			<key>DVTSourceControlAccountURLKey</key>
+			<string>https://github.com/sqlcipher/sqlcipher.git</string>
+			<key>DVTSourceControlRepositoryIdentifierKey</key>
+			<string>55011AEBD444630C0E9DF47BD2E18FDBBDCC285D</string>
+			<key>DVTSourceControlSystemIdentifierKey</key>
+			<string>com.apple.dt.Xcode.sourcecontrol.Git</string>
+		</dict>
+		<dict>
+			<key>DVTSourceControlAccountAuthTypeKey</key>
+			<integer>1</integer>
+			<key>DVTSourceControlAccountNameKey</key>
+			<string>MtProtoKit</string>
+			<key>DVTSourceControlAccountURLKey</key>
+			<string>https://github.com/peter-iakovlev/MtProtoKit</string>
+			<key>DVTSourceControlRepositoryIdentifierKey</key>
+			<string>7EC1C8EA9643E5D9E5CFB7785E6B7386F88D4D5C</string>
+			<key>DVTSourceControlSystemIdentifierKey</key>
+			<string>com.apple.dt.Xcode.sourcecontrol.Git</string>
+		</dict>
+		<dict>
+			<key>DVTSourceControlAccountAuthTypeKey</key>
+			<integer>1</integer>
+			<key>DVTSourceControlAccountNameKey</key>
+			<string>MtProtoKit</string>
+			<key>DVTSourceControlAccountURLKey</key>
+			<string>https://github.com/peter-iakovlev/MtProtoKit.git</string>
+			<key>DVTSourceControlRepositoryIdentifierKey</key>
+			<string>7EC1C8EA9643E5D9E5CFB7785E6B7386F88D4D5C</string>
+			<key>DVTSourceControlSystemIdentifierKey</key>
+			<string>com.apple.dt.Xcode.sourcecontrol.Git</string>
+		</dict>
+		<dict>
+			<key>DVTSourceControlAccountAuthTypeKey</key>
+			<integer>1</integer>
+			<key>DVTSourceControlAccountNameKey</key>
+			<string>pop</string>
+			<key>DVTSourceControlAccountURLKey</key>
+			<string>https://github.com/facebook/pop.git</string>
+			<key>DVTSourceControlRepositoryIdentifierKey</key>
+			<string>F2FE0AAE95F0B87896F2BEE0B176D4FC32D691A3</string>
+			<key>DVTSourceControlSystemIdentifierKey</key>
+			<string>com.apple.dt.Xcode.sourcecontrol.Git</string>
+		</dict>
+		<dict>
+			<key>DVTSourceControlAccountAuthTypeKey</key>
+			<integer>1</integer>
+			<key>DVTSourceControlAccountNameKey</key>
+			<string>elements</string>
+			<key>DVTSourceControlAccountURLKey</key>
+			<string>git@bitbucket.org:iakovlevpeterp/elements.git</string>
+			<key>DVTSourceControlRepositoryIdentifierKey</key>
+			<string>4F84751366314673FAED5BDE91D377A6883A3535</string>
+			<key>DVTSourceControlSystemIdentifierKey</key>
+			<string>com.apple.dt.Xcode.sourcecontrol.Git</string>
+		</dict>
+		<dict>
+			<key>DVTSourceControlAccountAuthTypeKey</key>
+			<integer>1</integer>
+			<key>DVTSourceControlAccountNameKey</key>
+			<string>lmdb</string>
+			<key>DVTSourceControlAccountURLKey</key>
+			<string>https://github.com/LMDB/lmdb.git</string>
+			<key>DVTSourceControlRepositoryIdentifierKey</key>
+			<string>4BAB8F3E22C4829A7272C753E8D316047BC55F8C</string>
+			<key>DVTSourceControlSystemIdentifierKey</key>
+			<string>com.apple.dt.Xcode.sourcecontrol.Git</string>
+		</dict>
+		<dict>
+			<key>DVTSourceControlAccountAuthTypeKey</key>
+			<integer>1</integer>
+			<key>DVTSourceControlAccountNameKey</key>
+			<string>Telegram</string>
+			<key>DVTSourceControlAccountURLKey</key>
+			<string>https://github.com/iv-mexx/Telegram.git</string>
+			<key>DVTSourceControlRepositoryIdentifierKey</key>
+			<string>9BF0BD89A8A5B00CFBE8915EE64B25DABC828A4B</string>
+			<key>DVTSourceControlSystemIdentifierKey</key>
+			<string>com.apple.dt.Xcode.sourcecontrol.Git</string>
+		</dict>
+		<dict>
+			<key>DVTSourceControlAccountAuthTypeKey</key>
+			<integer>1</integer>
+			<key>DVTSourceControlAccountNameKey</key>
+			<string>mobile-testing</string>
+			<key>DVTSourceControlAccountURLKey</key>
+			<string>https://github.com/inkrement/mobile-testing.git</string>
+			<key>DVTSourceControlRepositoryIdentifierKey</key>
+			<string>C49CC756134C5B1FE9EC398E79C4F20D10FA7206</string>
+			<key>DVTSourceControlSystemIdentifierKey</key>
+			<string>com.apple.dt.Xcode.sourcecontrol.Git</string>
+		</dict>
+	</array>
+	<key>DeveloperAccountForProject</key>
+	<dict>
+		<key>D0445DCF1A7C2CA500267924</key>
+		<string>chris.hotz.behofsits@gmail.com</string>
+	</dict>
+	<key>IBAppliesAutoResizingRulesWhileResizing</key>
+	<false/>
+	<key>IBDocumentOutlineViewExpanded</key>
+	<false/>
+	<key>IBPreferencesMigrated</key>
+	<true/>
+	<key>IDEDefaultPrimaryEditorFrameSizeForPaths</key>
+	<dict>
+		<key>file:///Users/chris/Desktop/private-from-pq.c</key>
+		<dict>
+			<key>height</key>
+			<real>775</real>
+			<key>width</key>
+			<real>1400</real>
+		</dict>
+		<key>file:///Users/chris/Documents/dipl/TelegramOSX/TelegramTest/Storage.h</key>
+		<dict>
+			<key>height</key>
+			<real>706</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/chris/Documents/dipl/TelegramOSX/TelegramTest/Telegraph-Prefix.pch</key>
+		<dict>
+			<key>height</key>
+			<real>728</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/chris/Documents/dipl/TelegramOSX/Telegraph.xcodeproj/</key>
+		<dict>
+			<key>height</key>
+			<real>728</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/chris/Documents/extractparams.py</key>
+		<dict>
+			<key>height</key>
+			<real>750</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/chris/Documents/nsa/Aufgabe2/README.md</key>
+		<dict>
+			<key>height</key>
+			<real>750</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+	</dict>
+	<key>IDEHasConvertedXcode3BuildPrefs</key>
+	<true/>
+	<key>IDEKeyBindingCurrentPreferenceSet</key>
+	<string>Default.idekeybindings</string>
+	<key>IDEKeyBindingExcludedPreferenceSet</key>
+	<array>
+		<string>Default</string>
+	</array>
+	<key>IDELastLSRegisterHashes</key>
+	<dict>
+		<key>/Applications/Xcode.app/Contents/Applications/Accessibility Inspector.app</key>
+		<data>
+		7WuDgqX6Nc8MAgvH9j3Pz4tCr6k=
+		</data>
+		<key>/Applications/Xcode.app/Contents/Applications/Application Loader.app</key>
+		<data>
+		Q8kgZ6XQr9/53iWSKMrIuQcbebk=
+		</data>
+		<key>/Applications/Xcode.app/Contents/Applications/FileMerge.app</key>
+		<data>
+		WD4t/E881pv71GmFFd988HsHHPM=
+		</data>
+		<key>/Applications/Xcode.app/Contents/Applications/Instruments.app</key>
+		<data>
+		owXpN/PABPymLPQK+N1sTodR8ao=
+		</data>
+		<key>/Applications/Xcode.app/Contents/Developer/Applications/Simulator (Watch).app</key>
+		<data>
+		kz4mHcJHSs/N67gmKYiws9X1PI0=
+		</data>
+		<key>/Applications/Xcode.app/Contents/Developer/Applications/Simulator.app</key>
+		<data>
+		fgfx7hMXOPI91BjuMepN2z2RmcA=
+		</data>
+		<key>/System/Library/CoreServices/CoreTypes.bundle</key>
+		<data>
+		TaxHTb3h4BxdqLid+LRI94dLGuY=
+		</data>
+	</dict>
+	<key>IDELogNavigatorGroupByKey</key>
+	<false/>
+	<key>IDERecentEditorDocuments</key>
+	<array>
+		<data>
+		Ym9va2wDAAAAAAQQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+		AAAAaAIAAAUAAAABAQAAVXNlcnMAAAAFAAAAAQEAAGNocmlzAAAACQAAAAEB
+		AABEb2N1bWVudHMAAAAQAAAAAQEAAGV4dHJhY3RwYXJhbXMucHkQAAAAAQYA
+		AAQAAAAUAAAAJAAAADgAAAAIAAAABAMAAJAnBgAAAAAACAAAAAQDAACueQYA
+		AAAAAAgAAAAEAwAAr3kGAAAAAAAIAAAABAMAACheMAAAAAAAEAAAAAEGAABo
+		AAAAeAAAAIgAAACYAAAACAAAAAAEAABBvCve9wAAABgAAAABAgAAAQAAAAAA
+		AAAPAAAAAAAAAAAAAAAAAAAACAAAAAQDAAACAAAAAAAAAAQAAAADAwAA9QEA
+		AAgAAAABCQAAZmlsZTovLy8DAAAAAQEAAHNzZAAIAAAABAMAAAAAAPcbAAAA
+		CAAAAAAEAABBu+jPdwAAACQAAAABAQAANjQwQUFENkMtMUU3Ni0zMjcyLUEz
+		RjEtOTQ2Njc3N0FDNTBEGAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAA
+		AAABAAAAAQEAAC8AAAAAAAAAAQUAALgAAAABAgAANmJiNmE3NGQ5MTQ1NjYx
+		OTI4ZjRiNGE1MGU0ZDJkNjI0YzVlZGNiYjswMDAwMDAwMDswMDAwMDAwMDsw
+		MDAwMDAwMDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2FuZGJveC5yZWFkLXdy
+		aXRlOzAwMDAwMDAxOzAxMDAwMDA0OzAwMDAwMDAwMDAzMDVlMjg7L3VzZXJz
+		L2NocmlzL2RvY3VtZW50cy9leHRyYWN0cGFyYW1zLnB5AMwAAAD+////AQAA
+		AAAAAAAQAAAABBAAAFAAAAAAAAAABRAAAKgAAAAAAAAAEBAAANAAAAAAAAAA
+		QBAAAMAAAAAAAAAAAiAAAJQBAAAAAAAABSAAAAwBAAAAAAAAECAAABwBAAAA
+		AAAAESAAAEgBAAAAAAAAEiAAACgBAAAAAAAAEyAAADgBAAAAAAAAICAAAHQB
+		AAAAAAAAMCAAAKABAAAAAAAAAcAAAPAAAAAAAAAAEcAAABQAAAAAAAAAEsAA
+		AAABAAAAAAAAgPAAAKgBAAAAAAAA
+		</data>
+		<data>
+		Ym9vawwEAAAAAAQQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+		AAAA/AIAAAUAAAABAQAAVXNlcnMAAAAFAAAAAQEAAGNocmlzAAAACQAAAAEB
+		AABEb2N1bWVudHMAAAAEAAAAAQEAAGRpcGwLAAAAAQEAAFRlbGVncmFtT1NY
+		ABAAAAABAQAATGF1bmNoU2NyZWVuLnhpYhgAAAABBgAABAAAABQAAAAkAAAA
+		OAAAAEQAAABYAAAACAAAAAQDAACQJwYAAAAAAAgAAAAEAwAArnkGAAAAAAAI
+		AAAABAMAAK95BgAAAAAACAAAAAQDAACEsjUAAAAAAAgAAAAEAwAAJ8M+AAAA
+		AAAIAAAABAMAADgMQAAAAAAAGAAAAAEGAACQAAAAoAAAALAAAADAAAAA0AAA
+		AOAAAAAIAAAAAAQAAEG8SqYCAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAA
+		AAAAAAAAAAAIAAAABAMAAAQAAAAAAAAABAAAAAMDAAD1AQAACAAAAAEJAABm
+		aWxlOi8vLwMAAAABAQAAc3NkAAgAAAAEAwAAAAAA9xsAAAAIAAAAAAQAAEG7
+		6M93AAAAJAAAAAEBAAA2NDBBQUQ2Qy0xRTc2LTMyNzItQTNGMS05NDY2Nzc3
+		QUM1MEQYAAAAAQIAAIEAAAABAAAA7xMAAAEAAAAAAAAAAAAAAAEAAAABAQAA
+		LwAAAAAAAAABBQAAGgAAAAEBAABOU1VSTERvY3VtZW50SWRlbnRpZmllcktl
+		eQAABAAAAAMDAABNBAAAyQAAAAECAAAyZTAxZmMzMzdmY2YyYzA0NzFhMjcw
+		YjNhN2Q1NzZhOGIzYTg1ZGE1OzAwMDAwMDAwOzAwMDAwMDAwOzAwMDAwMDAw
+		MDAwMDAwMjA7Y29tLmFwcGxlLmFwcC1zYW5kYm94LnJlYWQtd3JpdGU7MDAw
+		MDAwMDE7MDEwMDAwMDQ7MDAwMDAwMDAwMDQwMGMzODsvdXNlcnMvY2hyaXMv
+		ZG9jdW1lbnRzL2RpcGwvdGVsZWdyYW1vc3gvbGF1bmNoc2NyZWVuLnhpYgAA
+		AADYAAAA/v///wEAAAAAAAAAEQAAAAQQAABwAAAAAAAAAAUQAADwAAAAAAAA
+		ABAQAAAgAQAAAAAAAEAQAAAQAQAAAAAAAAIgAADkAQAAAAAAAAUgAABcAQAA
+		AAAAABAgAABsAQAAAAAAABEgAACYAQAAAAAAABIgAAB4AQAAAAAAABMgAACI
+		AQAAAAAAACAgAADEAQAAAAAAADAgAADwAQAAAAAAAAHAAABAAQAAAAAAABHA
+		AAAUAAAAAAAAABLAAABQAQAAAAAAAIDwAAAoAgAAAAAAAPgBAIAcAgAAAAAA
+		AA==
+		</data>
+		<data>
+		Ym9va/wDAAAAAAQQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+		AAAA+AIAAAUAAAABAQAAVXNlcnMAAAAFAAAAAQEAAGNocmlzAAAACQAAAAEB
+		AABEb2N1bWVudHMAAAAEAAAAAQEAAGRpcGwLAAAAAQEAAFRlbGVncmFtT1NY
+		AAwAAAABAQAAVGVsZWdyYW1UZXN0CQAAAAEBAABTdG9yYWdlLmgAAAAcAAAA
+		AQYAAAQAAAAUAAAAJAAAADgAAABEAAAAWAAAAGwAAAAIAAAABAMAAJAnBgAA
+		AAAACAAAAAQDAACueQYAAAAAAAgAAAAEAwAAr3kGAAAAAAAIAAAABAMAAISy
+		NQAAAAAACAAAAAQDAADVzz0AAAAAAAgAAAAEAwAALdI9AAAAAAAIAAAABAMA
+		ADDYPQAAAAAAHAAAAAEGAACkAAAAtAAAAMQAAADUAAAA5AAAAPQAAAAEAQAA
+		CAAAAAAEAABBvEjwggAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAA
+		AAAACAAAAAQDAAAFAAAAAAAAAAQAAAADAwAA9QEAAAgAAAABCQAAZmlsZTov
+		Ly8DAAAAAQEAAHNzZAAIAAAABAMAAAAAAPcbAAAACAAAAAAEAABBu+jPdwAA
+		ACQAAAABAQAANjQwQUFENkMtMUU3Ni0zMjcyLUEzRjEtOTQ2Njc3N0FDNTBE
+		GAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAAAA
+		AAAAAQUAAM8AAAABAgAANDcyZmU4MTUyNWIzMzQyNGQ4YjBkYzc4NWQ0Y2Q1
+		NmVjYzdlMDcxNjswMDAwMDAwMDswMDAwMDAwMDswMDAwMDAwMDAwMDAwMDIw
+		O2NvbS5hcHBsZS5hcHAtc2FuZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzAx
+		MDAwMDA0OzAwMDAwMDAwMDAzZGQ4MzA7L3VzZXJzL2NocmlzL2RvY3VtZW50
+		cy9kaXBsL3RlbGVncmFtb3N4L3RlbGVncmFtdGVzdC9zdG9yYWdlLmgAAMwA
+		AAD+////AQAAAAAAAAAQAAAABBAAAIAAAAAAAAAABRAAABQBAAAAAAAAEBAA
+		AEgBAAAAAAAAQBAAADgBAAAAAAAAAiAAAAwCAAAAAAAABSAAAIQBAAAAAAAA
+		ECAAAJQBAAAAAAAAESAAAMABAAAAAAAAEiAAAKABAAAAAAAAEyAAALABAAAA
+		AAAAICAAAOwBAAAAAAAAMCAAABgCAAAAAAAAAcAAAGgBAAAAAAAAEcAAABQA
+		AAAAAAAAEsAAAHgBAAAAAAAAgPAAACACAAAAAAAA
+		</data>
+		<data>
+		Ym9vaxAEAAAAAAQQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+		AAAADAMAAAUAAAABAQAAVXNlcnMAAAAFAAAAAQEAAGNocmlzAAAACQAAAAEB
+		AABEb2N1bWVudHMAAAAEAAAAAQEAAGRpcGwLAAAAAQEAAFRlbGVncmFtT1NY
+		AAwAAAABAQAAVGVsZWdyYW1UZXN0FAAAAAEBAABUZWxlZ3JhcGgtUHJlZml4
+		LnBjaBwAAAABBgAABAAAABQAAAAkAAAAOAAAAEQAAABYAAAAbAAAAAgAAAAE
+		AwAAkCcGAAAAAAAIAAAABAMAAK55BgAAAAAACAAAAAQDAACveQYAAAAAAAgA
+		AAAEAwAAhLI1AAAAAAAIAAAABAMAANXPPQAAAAAACAAAAAQDAAAt0j0AAAAA
+		AAgAAAAEAwAAZdo9AAAAAAAcAAAAAQYAAKwAAAC8AAAAzAAAANwAAADsAAAA
+		/AAAAAwBAAAIAAAAAAQAAEG8SPCCAAAAGAAAAAECAAABAAAAAAAAAA8AAAAA
+		AAAAAAAAAAAAAAAIAAAABAMAAAUAAAAAAAAABAAAAAMDAAD1AQAACAAAAAEJ
+		AABmaWxlOi8vLwMAAAABAQAAc3NkAAgAAAAEAwAAAAAA9xsAAAAIAAAAAAQA
+		AEG76M93AAAAJAAAAAEBAAA2NDBBQUQ2Qy0xRTc2LTMyNzItQTNGMS05NDY2
+		Nzc3QUM1MEQYAAAAAQIAAIEAAAABAAAA7xMAAAEAAAAAAAAAAAAAAAEAAAAB
+		AQAALwAAAAAAAAABBQAA2gAAAAECAABkYzYxM2RhMjM4YjgwMDBhYmVjMTFh
+		YWZmMjhjODdmN2ZkMDNhNGU3OzAwMDAwMDAwOzAwMDAwMDAwOzAwMDAwMDAw
+		MDAwMDAwMjA7Y29tLmFwcGxlLmFwcC1zYW5kYm94LnJlYWQtd3JpdGU7MDAw
+		MDAwMDE7MDEwMDAwMDQ7MDAwMDAwMDAwMDNkZGE2NTsvdXNlcnMvY2hyaXMv
+		ZG9jdW1lbnRzL2RpcGwvdGVsZWdyYW1vc3gvdGVsZWdyYW10ZXN0L3RlbGVn
+		cmFwaC1wcmVmaXgucGNoAAAAzAAAAP7///8BAAAAAAAAABAAAAAEEAAAiAAA
+		AAAAAAAFEAAAHAEAAAAAAAAQEAAAUAEAAAAAAABAEAAAQAEAAAAAAAACIAAA
+		FAIAAAAAAAAFIAAAjAEAAAAAAAAQIAAAnAEAAAAAAAARIAAAyAEAAAAAAAAS
+		IAAAqAEAAAAAAAATIAAAuAEAAAAAAAAgIAAA9AEAAAAAAAAwIAAAIAIAAAAA
+		AAABwAAAcAEAAAAAAAARwAAAFAAAAAAAAAASwAAAgAEAAAAAAACA8AAAKAIA
+		AAAAAAA=
+		</data>
+		<data>
+		Ym9va5AAAAAAAAQQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+		AAAAQAAAADIAAAABAQAAeC14Y29kZS1sb2c6Ly84NUFGMjhBRi0zODBCLTQ0
+		QkMtQTU4MS0yQUE5NEVEQ0U4RTEAABgAAAD+////AQAAAAAAAAABAAAAAxAA
+		AAQAAAAAAAAA
+		</data>
+		<data>
+		Ym9va/gDAAAAAAQQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+		AAAA6AIAAAUAAAABAQAAVXNlcnMAAAAFAAAAAQEAAGNocmlzAAAACQAAAAEB
+		AABEb2N1bWVudHMAAAADAAAAAQEAAG5zYQAIAAAAAQEAAEF1ZmdhYmUyCQAA
+		AAEBAABSRUFETUUubWQAAAAYAAAAAQYAAAQAAAAUAAAAJAAAADgAAABEAAAA
+		VAAAAAgAAAAEAwAAkCcGAAAAAAAIAAAABAMAAK55BgAAAAAACAAAAAQDAACv
+		eQYAAAAAAAgAAAAEAwAAa8EzAAAAAAAIAAAABAMAAKbBMwAAAAAACAAAAAQD
+		AAAnojcAAAAAABgAAAABBgAAiAAAAJgAAACoAAAAuAAAAMgAAADYAAAACAAA
+		AAAEAABBvDLQjAAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAA
+		CAAAAAQDAAAEAAAAAAAAAAQAAAADAwAA9QEAAAgAAAABCQAAZmlsZTovLy8D
+		AAAAAQEAAHNzZAAIAAAABAMAAAAAAPcbAAAACAAAAAAEAABBu+jPdwAAACQA
+		AAABAQAANjQwQUFENkMtMUU3Ni0zMjcyLUEzRjEtOTQ2Njc3N0FDNTBEGAAA
+		AAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAAAAAAAA
+		AQUAABoAAAABAQAATlNVUkxEb2N1bWVudElkZW50aWZpZXJLZXkAAAQAAAAD
+		AwAA5wMAAL4AAAABAgAAMjhlZDc3YTM3ODhlODcwMGVhZjM3ZGExYzhhMjgw
+		MzNkMDk0ZWIyOTswMDAwMDAwMDswMDAwMDAwMDswMDAwMDAwMDAwMDAwMDIw
+		O2NvbS5hcHBsZS5hcHAtc2FuZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzAx
+		MDAwMDA0OzAwMDAwMDAwMDAzN2EyMjc7L3VzZXJzL2NocmlzL2RvY3VtZW50
+		cy9uc2EvYXVmZ2FiZTIvcmVhZG1lLm1kAAAA2AAAAP7///8BAAAAAAAAABEA
+		AAAEEAAAaAAAAAAAAAAFEAAA6AAAAAAAAAAQEAAAGAEAAAAAAABAEAAACAEA
+		AAAAAAACIAAA3AEAAAAAAAAFIAAAVAEAAAAAAAAQIAAAZAEAAAAAAAARIAAA
+		kAEAAAAAAAASIAAAcAEAAAAAAAATIAAAgAEAAAAAAAAgIAAAvAEAAAAAAAAw
+		IAAA6AEAAAAAAAABwAAAOAEAAAAAAAARwAAAFAAAAAAAAAASwAAASAEAAAAA
+		AACA8AAAIAIAAAAAAADwAQCAFAIAAAAAAAA=
+		</data>
+		<data>
+		Ym9va2wDAAAAAAQQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+		AAAAaAIAAAUAAAABAQAAVXNlcnMAAAAFAAAAAQEAAGNocmlzAAAABwAAAAEB
+		AABEZXNrdG9wABEAAAABAQAAcHJpdmF0ZS1mcm9tLXBxLmMAAAAQAAAAAQYA
+		AAQAAAAUAAAAJAAAADQAAAAIAAAABAMAAJAnBgAAAAAACAAAAAQDAACueQYA
+		AAAAAAgAAAAEAwAAv3kGAAAAAAAIAAAABAMAAKG4MAAAAAAAEAAAAAEGAABo
+		AAAAeAAAAIgAAACYAAAACAAAAAAEAABBvCv1EAAAABgAAAABAgAAAQAAAAAA
+		AAAPAAAAAAAAAAAAAAAAAAAACAAAAAQDAAACAAAAAAAAAAQAAAADAwAA9QEA
+		AAgAAAABCQAAZmlsZTovLy8DAAAAAQEAAHNzZAAIAAAABAMAAAAAAPcbAAAA
+		CAAAAAAEAABBu+jPdwAAACQAAAABAQAANjQwQUFENkMtMUU3Ni0zMjcyLUEz
+		RjEtOTQ2Njc3N0FDNTBEGAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAA
+		AAABAAAAAQEAAC8AAAAAAAAAAQUAALcAAAABAgAAOGQ5YTg1NmI2NDQ4ODQz
+		ZjQ2OGE5N2ZhNWYwODZlOGZjNWU1OTQxYTswMDAwMDAwMDswMDAwMDAwMDsw
+		MDAwMDAwMDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2FuZGJveC5yZWFkLXdy
+		aXRlOzAwMDAwMDAxOzAxMDAwMDA0OzAwMDAwMDAwMDAzMGI4YTE7L3VzZXJz
+		L2NocmlzL2Rlc2t0b3AvcHJpdmF0ZS1mcm9tLXBxLmMAAMwAAAD+////AQAA
+		AAAAAAAQAAAABBAAAFAAAAAAAAAABRAAAKgAAAAAAAAAEBAAANAAAAAAAAAA
+		QBAAAMAAAAAAAAAAAiAAAJQBAAAAAAAABSAAAAwBAAAAAAAAECAAABwBAAAA
+		AAAAESAAAEgBAAAAAAAAEiAAACgBAAAAAAAAEyAAADgBAAAAAAAAICAAAHQB
+		AAAAAAAAMCAAAKABAAAAAAAAAcAAAPAAAAAAAAAAEcAAABQAAAAAAAAAEsAA
+		AAABAAAAAAAAgPAAAKgBAAAAAAAA
+		</data>
+	</array>
+	<key>IDESourceControlKnownSSHHostsDefaultsKey</key>
+	<dict>
+		<key>bitbucket.org</key>
+		<string>978C1BF26F146B5C3BECAA4646747C40</string>
+		<key>github.com</key>
+		<string>1627ACA576282D36631B564DEBDFA648</string>
+	</dict>
+	<key>IDESourceControlPreferencesVersion</key>
+	<integer>201</integer>
+	<key>IDESourceControlRecentsFavoritesRepositoriesUserDefaultsKey</key>
+	<array>
+		<dict>
+			<key>DVTSourceControlWorkspaceBlueprintFavoriteStatusKey</key>
+			<false/>
+			<key>DVTSourceControlWorkspaceBlueprintIdentifierKey</key>
+			<string>434B2FF1-4AD6-463C-8DD5-2C570944FB50</string>
+			<key>DVTSourceControlWorkspaceBlueprintNameKey</key>
+			<string>Telegraph</string>
+			<key>DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey</key>
+			<string>C49CC756134C5B1FE9EC398E79C4F20D10FA7206</string>
+			<key>DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey</key>
+			<string>TelegramOSX/Telegraph.xcodeproj</string>
+			<key>DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey</key>
+			<array>
+				<dict>
+					<key>DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey</key>
+					<string>C49CC756134C5B1FE9EC398E79C4F20D10FA7206</string>
+					<key>DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey</key>
+					<string>com.apple.dt.Xcode.sourcecontrol.Git</string>
+					<key>DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey</key>
+					<string>https://github.com/inkrement/mobile-testing.git</string>
+				</dict>
+			</array>
+			<key>DVTSourceControlWorkspaceBlueprintVersion</key>
+			<integer>204</integer>
+			<key>DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey</key>
+			<dict>
+				<key>C49CC756134C5B1FE9EC398E79C4F20D10FA7206</key>
+				<string>dipl/</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>DVTSourceControlWorkspaceBlueprintFavoriteStatusKey</key>
+			<false/>
+			<key>DVTSourceControlWorkspaceBlueprintIdentifierKey</key>
+			<string>434B2FF1-4AD6-463C-8DD5-2C570944FB50</string>
+			<key>DVTSourceControlWorkspaceBlueprintNameKey</key>
+			<string>Telegraph</string>
+			<key>DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey</key>
+			<string>9BF0BD89A8A5B00CFBE8915EE64B25DABC828A4B</string>
+			<key>DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey</key>
+			<string>Telegraph.xcodeproj</string>
+			<key>DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey</key>
+			<array>
+				<dict>
+					<key>DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey</key>
+					<string>4BAB8F3E22C4829A7272C753E8D316047BC55F8C</string>
+					<key>DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey</key>
+					<string>com.apple.dt.Xcode.sourcecontrol.Git</string>
+					<key>DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey</key>
+					<string>https://gitorious.org/mdb/mdb.git</string>
+				</dict>
+				<dict>
+					<key>DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey</key>
+					<string>4F84751366314673FAED5BDE91D377A6883A3535</string>
+					<key>DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey</key>
+					<string>com.apple.dt.Xcode.sourcecontrol.Git</string>
+					<key>DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey</key>
+					<string>bitbucket.org:iakovlevpeterp/elements.git</string>
+				</dict>
+				<dict>
+					<key>DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey</key>
+					<string>55011AEBD444630C0E9DF47BD2E18FDBBDCC285D</string>
+					<key>DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey</key>
+					<string>com.apple.dt.Xcode.sourcecontrol.Git</string>
+					<key>DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey</key>
+					<string>https://github.com/sqlcipher/sqlcipher.git</string>
+				</dict>
+				<dict>
+					<key>DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey</key>
+					<string>7EC1C8EA9643E5D9E5CFB7785E6B7386F88D4D5C</string>
+					<key>DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey</key>
+					<string>com.apple.dt.Xcode.sourcecontrol.Git</string>
+					<key>DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey</key>
+					<string>github.com:iakovlev-peter/MtProtoKit.git</string>
+				</dict>
+				<dict>
+					<key>DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey</key>
+					<string>9BF0BD89A8A5B00CFBE8915EE64B25DABC828A4B</string>
+					<key>DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey</key>
+					<string>com.apple.dt.Xcode.sourcecontrol.Git</string>
+					<key>DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey</key>
+					<string>bitbucket.org:iakovlevpeterp/telegramprivate.git</string>
+				</dict>
+				<dict>
+					<key>DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey</key>
+					<string>E860E73EA92362394DE531098D73ED96B22811B3</string>
+					<key>DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey</key>
+					<string>com.apple.dt.Xcode.sourcecontrol.Git</string>
+					<key>DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey</key>
+					<string>bitbucket.org:iakovlevpeterp/ssignalkit.git</string>
+				</dict>
+				<dict>
+					<key>DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey</key>
+					<string>F2FE0AAE95F0B87896F2BEE0B176D4FC32D691A3</string>
+					<key>DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey</key>
+					<string>com.apple.dt.Xcode.sourcecontrol.Git</string>
+					<key>DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey</key>
+					<string>https://github.com/facebook/pop.git</string>
+				</dict>
+			</array>
+			<key>DVTSourceControlWorkspaceBlueprintVersion</key>
+			<integer>204</integer>
+			<key>DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey</key>
+			<dict>
+				<key>4BAB8F3E22C4829A7272C753E8D316047BC55F8C</key>
+				<string>TelegraphShare/submodules/lmdb</string>
+				<key>4F84751366314673FAED5BDE91D377A6883A3535</key>
+				<string>Telegraphsubmodules/elements</string>
+				<key>55011AEBD444630C0E9DF47BD2E18FDBBDCC285D</key>
+				<string>Telegraphthirdparty/sqlcipher</string>
+				<key>7EC1C8EA9643E5D9E5CFB7785E6B7386F88D4D5C</key>
+				<string>MtProtoKit</string>
+				<key>9BF0BD89A8A5B00CFBE8915EE64B25DABC828A4B</key>
+				<string>Telegraph</string>
+				<key>E860E73EA92362394DE531098D73ED96B22811B3</key>
+				<string>Telegraphthirdparty/SSignalKit</string>
+				<key>F2FE0AAE95F0B87896F2BEE0B176D4FC32D691A3</key>
+				<string>Telegraphthirdparty/pop</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>DVTSourceControlWorkspaceBlueprintFavoriteStatusKey</key>
+			<false/>
+			<key>DVTSourceControlWorkspaceBlueprintIdentifierKey</key>
+			<string>ABCC6397-1AF7-49D7-9751-8C02D795855C</string>
+			<key>DVTSourceControlWorkspaceBlueprintNameKey</key>
+			<string>Telegram</string>
+			<key>DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey</key>
+			<string>4A5BEE4DFE7777AFD5504E71EF990A207EDDC37A</string>
+			<key>DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey</key>
+			<string>Telegram.xcodeproj</string>
+			<key>DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey</key>
+			<array>
+				<dict>
+					<key>DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey</key>
+					<string>4A5BEE4DFE7777AFD5504E71EF990A207EDDC37A</string>
+					<key>DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey</key>
+					<string>com.apple.dt.Xcode.sourcecontrol.Git</string>
+					<key>DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey</key>
+					<string>https://github.com/overtake/telegramosx.git</string>
+				</dict>
+				<dict>
+					<key>DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey</key>
+					<string>55011AEBD444630C0E9DF47BD2E18FDBBDCC285D</string>
+					<key>DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey</key>
+					<string>com.apple.dt.Xcode.sourcecontrol.Git</string>
+					<key>DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey</key>
+					<string>https://github.com/sqlcipher/sqlcipher.git</string>
+				</dict>
+				<dict>
+					<key>DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey</key>
+					<string>7EC1C8EA9643E5D9E5CFB7785E6B7386F88D4D5C</string>
+					<key>DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey</key>
+					<string>com.apple.dt.Xcode.sourcecontrol.Git</string>
+					<key>DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey</key>
+					<string>https://github.com/iakovlev-peter/MtProtoKit.git</string>
+				</dict>
+				<dict>
+					<key>DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey</key>
+					<string>E860E73EA92362394DE531098D73ED96B22811B3</string>
+					<key>DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey</key>
+					<string>com.apple.dt.Xcode.sourcecontrol.Git</string>
+					<key>DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey</key>
+					<string>https://github.com/peter-iakovlev/Signals</string>
+				</dict>
+			</array>
+			<key>DVTSourceControlWorkspaceBlueprintVersion</key>
+			<integer>204</integer>
+			<key>DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey</key>
+			<dict>
+				<key>4A5BEE4DFE7777AFD5504E71EF990A207EDDC37A</key>
+				<string>osx-cipher/</string>
+				<key>55011AEBD444630C0E9DF47BD2E18FDBBDCC285D</key>
+				<string>osx-cipher/sqlcipher/</string>
+				<key>7EC1C8EA9643E5D9E5CFB7785E6B7386F88D4D5C</key>
+				<string>osx-cipher/MtProtoKit/</string>
+				<key>E860E73EA92362394DE531098D73ED96B22811B3</key>
+				<string>osx-cipher/Signals/</string>
+			</dict>
+		</dict>
+	</array>
+	<key>IDESourceTreeDisplayNames</key>
+	<dict/>
+	<key>NSNavLastRootDirectory</key>
+	<string>~/Documents/dipl/TelegramOSX</string>
+	<key>NSNavPanelExpandedSizeForOpenMode</key>
+	<string>{712, 448}</string>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/039989E8-2387-46BF-8F54-967C0B0311CB</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/1992BAB5-97A4-46ED-BF2A-F383E3E4C215</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/7FE29C3F-F8F4-43EB-872B-567C3C782FAD</key>
+	<dict>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/CB96F84D-0126-4C4D-A77F-F214649C9F2F</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/F61B8FA6-BECB-462A-992F-2C4E4F9CEECF</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.Workspace/0ED1BCA4-B8CB-4157-B862-B8B1450E58CC</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>Xcode.IDEKit.CustomToolbarItem.Space-6-WithTitleBarOnly</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Run</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.MultiStop</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Separator</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.ActiveScheme</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Space-6</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Separator</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Space-3-WithTitleBarOnly</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.Workspace/1834C3BC-ECA6-4FD8-BE80-420D2D33C8B2</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>Xcode.IDEKit.CustomToolbarItem.Space-6-WithTitleBarOnly</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Run</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.MultiStop</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Separator</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.ActiveScheme</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Space-6</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Separator</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Space-3-WithTitleBarOnly</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.Workspace/1AD6C553-220C-4CBC-8137-F50CA2B98240</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>Xcode.IDEKit.CustomToolbarItem.Space-6-WithTitleBarOnly</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Run</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.MultiStop</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Separator</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.ActiveScheme</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Space-6</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Separator</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Space-3-WithTitleBarOnly</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.Workspace/247FE4A3-9EE5-4EB1-9906-CE23389C6601</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>Xcode.IDEKit.CustomToolbarItem.Space-6-WithTitleBarOnly</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Run</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.MultiStop</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Separator</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.ActiveScheme</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Space-6</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Separator</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Space-3-WithTitleBarOnly</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.Workspace/5B91CA51-5A6A-4A28-A174-7754BEB4F420</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>Xcode.IDEKit.CustomToolbarItem.Space-6-WithTitleBarOnly</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Run</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.MultiStop</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Separator</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.ActiveScheme</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Space-6</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Separator</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Space-3-WithTitleBarOnly</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.Workspace/A928F7DA-D6B7-4D1E-9223-BE1E944EA25D</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>Xcode.IDEKit.CustomToolbarItem.Space-6-WithTitleBarOnly</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Run</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.MultiStop</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Separator</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.ActiveScheme</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Space-6</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Separator</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Space-3-WithTitleBarOnly</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.Workspace/B7174902-FB33-403F-A163-2B1CDDAFB381</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>Xcode.IDEKit.CustomToolbarItem.Space-6-WithTitleBarOnly</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Run</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.MultiStop</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Separator</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.ActiveScheme</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Space-6</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Separator</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Space-3-WithTitleBarOnly</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration com.apple.NSColorPanel</key>
+	<dict>
+		<key>TB Is Shown</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSWindow Frame IDEPreferencesPanel</key>
+	<string>345 306 750 494 0 0 1440 877 </string>
+	<key>Xcode3ProjectEditorSourceListVisible</key>
+	<true/>
+	<key>Xcode3TargetTemplateChooserAssistantSelectedTemplateCategory</key>
+	<string>Application</string>
+	<key>Xcode3TargetTemplateChooserAssistantSelectedTemplateName</key>
+	<string>Master-Detail Application</string>
+	<key>Xcode3TargetTemplateChooserAssistantSelectedTemplateSection</key>
+	<string>com.apple.platform.iphoneos</string>
+</dict>
+</plist>

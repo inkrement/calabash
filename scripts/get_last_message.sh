@@ -4,7 +4,7 @@
 # It is necessary that the telegram-cli tool (https://github.com/vysheng/tg) is installed and configured
 #
 # Edit the `TELEGRAM_PATH` variable to point to your telegram-cli client and the key
-USER_NAME='Dominik_Pichler'
+USER_NAME='Francesca_Schmidt'
 TELEGRAM_PATH='~/.telegram-cli'
 
 TELEGRAM="$TELEGRAM_PATH/bin/telegram-cli -k $TELEGRAM_PATH/server.pub"

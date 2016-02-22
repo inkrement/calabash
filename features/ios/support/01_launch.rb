@@ -34,7 +34,7 @@ Before do |_|
               :launch_retries => ENV['TRAVIS'] ? 7 : 2
         }
 
-  launcher.relaunch(launch_options)
+  #launcher.relaunch(launch_options)
   launcher.calabash_notify(self)
 end
 

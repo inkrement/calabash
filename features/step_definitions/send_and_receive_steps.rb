@@ -9,10 +9,18 @@ Given(/^a main page$/) do
 end
 
 Then(/^I click compose new message$/) do
+  unless @current_page.is_a?(MainPage)
+    raise "Expected MainPage, but found #{@current_page}"
+  end
+
   @current_page = @current_page.new_message()
 end
 
 Then(/^I search for "([^"]*)" and select first$/) do |name|
+  unless @current_page.is_a?(NewMessagePage)
+    raise "Expected NewMessagePage, but found #{@current_page}"
+  end
+
   @current_page = @current_page.searchAndSelectFirst(name)
 end
 
@@ -34,32 +42,15 @@ Then(/^I wait for receipt of the message "([^"]*)"$/) do |msg|
 end
 
 ##
-## New Group Message
+## Receive
 ##
 
-Then(/^I click to create new group chat$/) do
-  unless @current_page.is_a?(NewMessagePage)
-    raise "Expected NewMessagePage, but found #{@current_page}"
+Then(/^I should see the message "([^"]*)"$/) do |message|
+  unless @current_page.is_a?(MainPage)
+    raise "Expected MainPage, but found #{@current_page}"
   end
 
-  @current_page=@current_page.createNewGroupChat()
-end
-
-Then(/^I search and select "([^"]*)"$/) do |name|
-  unless @current_page.is_a?(NewGroupMemberSelectionPage)
-    raise "Expected NewGroupMemberSelectionPage, but found #{@current_page}"
-  end
-
-  @current_page = @current_page.searchAndSelectFirst(name)
-end
-
-Then(/^I enter group name "([^"]*)" and proceed$/) do |group_name|
-  @current_page.setName(group_name)
-  @current_page = @current_page.proceed()
-end
-
-Then(/^I should see a GroupChatPage$/) do
-  unless @current_page.is_a?(GroupChatPage)
-    raise "Expected GroupChatPage, but found #{@current_page}"
+  unless @current_page.containsMessage(message)
+    raise "Not able to find Message: #{message}"
   end
 end
