@@ -26,7 +26,7 @@ end
 
 Then(/^I wait for receipt of the message "([^"]*)"$/) do |msg|
   message_raw = `~/Documents/dipl/impl/cucumber-calabash/scripts/get_last_message.sh`
-  message =  message_raw.split.last.strip
+  message =  message_raw.split.last
 
   unless message == msg
     raise "Expected Message is '#{msg}', but found '#{message}'"
@@ -38,10 +38,18 @@ end
 ##
 
 Then(/^I click to create new group chat$/) do
+  unless @current_page.is_a?(NewMessagePage)
+    raise "Expected NewMessagePage, but found #{@current_page}"
+  end
+
   @current_page=@current_page.createNewGroupChat()
 end
 
 Then(/^I search and select "([^"]*)"$/) do |name|
+  unless @current_page.is_a?(NewGroupMemberSelectionPage)
+    raise "Expected NewGroupMemberSelectionPage, but found #{@current_page}"
+  end
+
   @current_page = @current_page.searchAndSelectFirst(name)
 end
 

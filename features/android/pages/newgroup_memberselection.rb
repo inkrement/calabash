@@ -15,7 +15,8 @@ class NewGroupMemberSelectionPage < Calabash::ABase
     ## enter name
     enter_text("android.widget.EditText",name)
     ## select first
-    touch(query("org.telegram.ui.Cells.UserCell")[0])
+    sleep(2)
+    touch(query("org.telegram.ui.Cells.UserCell index:0"))
     ## proceed
     touch("org.telegram.ui.ActionBar.ActionBarMenuItem")
     ## await new page

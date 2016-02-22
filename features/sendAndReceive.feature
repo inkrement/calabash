@@ -1,12 +1,12 @@
 Feature: Send and Receive
 
-#  Scenario: send message
-#    Given a main page
-#    Then I click compose new message
-#    Then I search for "Dominik Pichler" and select first
-#    Then I compose message "test123"
-#    Then I submit message
-#    Then I wait for receipt of the message "test123"
+  Scenario: send message
+    Given a main page
+    Then I click compose new message
+    Then I search for "Dominik Pichler" and select first
+    Then I compose message "test123"
+    Then I submit message
+    Then I wait for receipt of the message "test123"
 
 #  Scenario: receive message
 #    Given a main page

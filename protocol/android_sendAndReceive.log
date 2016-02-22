@@ -1,0 +1,35 @@
+Script started on Mon Feb 22 18:26:23 2016
+command: calabash-android run ../TelegramAndroid/TMessagesProj/build/outputs/apk/TMessagesProj-release.apk -p android features/sendAndReceive.feature
+Using the android profile...
+Feature: Send and Receive
+
+WARNING: linker: libdvm.so has text relocations. This is wasting memory and is a security risk. Please fix.
+WARNING: linker: libdvm.so has text relocations. This is wasting memory and is a security risk. Please fix.
+  Scenario: send message[90m                                 # features/sendAndReceive.feature:3[0m
+    [32mGiven a main page[90m                                    # features/step_definitions/send_and_receive_steps.rb:6[0m[0m
+    [32mThen I click compose new message[90m                     # features/step_definitions/send_and_receive_steps.rb:11[0m[0m
+    [32mThen I search for "[32m[1mDominik Pichler[0m[0m[32m" and select first[90m # features/step_definitions/send_and_receive_steps.rb:15[0m[0m
+    [32mThen I compose message "[32m[1mtest123[0m[0m[32m"[90m                     # features/step_definitions/send_and_receive_steps.rb:19[0m[0m
+    [32mThen I submit message[90m                                # features/step_definitions/send_and_receive_steps.rb:23[0m[0m
+Assertion failed: (0), function print_media, file interface.c, line 3446.
+    [32mThen I wait for receipt of the message "[32m[1mtest123[0m[0m[32m"[90m     # features/step_definitions/send_and_receive_steps.rb:27[0m[0m
+
+WARNING: linker: libdvm.so has text relocations. This is wasting memory and is a security risk. Please fix.
+WARNING: linker: libdvm.so has text relocations. This is wasting memory and is a security risk. Please fix.
+  #  Scenario: receive message
+  #    Given a main page
+  #    Then the message "123ha" is sent to me
+  #    Then I receive the message
+  Scenario: create group chat[90m                        # features/sendAndReceive.feature:17[0m
+    [32mGiven a main page[90m                                # features/step_definitions/send_and_receive_steps.rb:6[0m[0m
+    [32mThen I click compose new message[90m                 # features/step_definitions/send_and_receive_steps.rb:11[0m[0m
+    [32mThen I click to create new group chat[90m            # features/step_definitions/send_and_receive_steps.rb:40[0m[0m
+    [32mThen I search and select "[32m[1mFrancesca[0m[0m[32m"[90m             # features/step_definitions/send_and_receive_steps.rb:48[0m[0m
+    [32mThen I enter group name "[32m[1msome group[0m[0m[32m" and proceed[90m # features/step_definitions/send_and_receive_steps.rb:56[0m[0m
+    [32mThen I should see a GroupChatPage[90m                # features/step_definitions/send_and_receive_steps.rb:61[0m[0m
+
+2 scenarios ([32m2 passed[0m)
+12 steps ([32m12 passed[0m)
+0m36.631s
+
+Script done on Mon Feb 22 18:27:01 2016
