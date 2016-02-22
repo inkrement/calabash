@@ -1,6 +1,7 @@
 Feature: Send and Receive
 
   ##precondition: send message with unique content e.g. "test#!+" to the test device
+  @ios-only
   Scenario: receive message
     Given a main page
     Then I should see the message "test#!+"

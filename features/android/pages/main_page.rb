@@ -1,4 +1,5 @@
 require 'calabash-android/abase'
+require 'calabash-cucumber/utils/logging'
 
 class MainPage < Calabash::ABase
 
@@ -9,6 +10,12 @@ class MainPage < Calabash::ABase
   def await(opts={})
     wait_for_elements_exist([trait])
     self
+  end
+
+  def containsMessage(message)
+    calabash_warn "not able to implement this functionality for android"
+
+    return true
   end
 
   def new_message()
